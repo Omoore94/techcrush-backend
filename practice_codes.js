@@ -24,6 +24,17 @@ console.log(someItemNegative);
 //every
 let fig = [2, 4, 6, 8, 9, -1];
 let everyItemPositive = fig.every((items) => {
-    return items > 0  //checks if some/any item meet the condition
+    return items > 0  //checks if every item meet the condition
 });
 console.log(everyItemPositive);
+
+//forEach using a display function.
+let num = [1, 2, 3, 4, ,5, 6, 7];
+num.forEach(display)  //for each item in num, call back the display function and perform action/command.
+
+function display(element) {
+    console.log(element)
+};
+
+let fruits = ["apple", "mango", "avocado", "orange", "watermelon"];
+fruits.forEach()
