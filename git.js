@@ -49,3 +49,6 @@
 //2. git checkout -b {branch_name} => to create a branch and immediately switch to that branch. 
 //NB => git branch list out all available branches in the repo
 //git checkout {branch_name} => allows you to switch to a new branch.
+
+
+//MERGING
